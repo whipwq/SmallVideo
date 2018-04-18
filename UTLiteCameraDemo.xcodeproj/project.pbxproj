@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E403182A1E5D894D00E52099 /* UTLiteCameraConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = E40318271E5D894D00E52099 /* UTLiteCameraConfiguration.m */; };
+		E403182B1E5D894D00E52099 /* UTLiteCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E40318291E5D894D00E52099 /* UTLiteCameraManager.m */; };
+		E42DE2B31E5BEA5200608602 /* Camera_Turn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E42DE2B01E5BEA5200608602 /* Camera_Turn@2x.png */; };
+		E42DE2B41E5BEA5200608602 /* Delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E42DE2B11E5BEA5200608602 /* Delete@2x.png */; };
+		E42DE2B51E5BEA5200608602 /* Play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E42DE2B21E5BEA5200608602 /* Play@2x.png */; };
+		E42DE2BB1E5C0BAE00608602 /* UTLiteCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42DE2BA1E5C0BAE00608602 /* UTLiteCameraViewController.m */; };
+		E4303A551E5ED77500A21D75 /* UTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E4303A541E5ED77500A21D75 /* UTButton.m */; };
+		E44712AA1E5D210800217F0F /* focus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E44712A91E5D210800217F0F /* focus@2x.png */; };
+		E44FC9721E5B522700D5637B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E44FC9711E5B522700D5637B /* main.m */; };
+		E44FC9751E5B522700D5637B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E44FC9741E5B522700D5637B /* AppDelegate.m */; };
+		E44FC97E1E5B522700D5637B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44FC97C1E5B522700D5637B /* Main.storyboard */; };
+		E44FC9801E5B522700D5637B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E44FC97F1E5B522700D5637B /* Assets.xcassets */; };
+		E44FC9831E5B522700D5637B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44FC9811E5B522700D5637B /* LaunchScreen.storyboard */; };
+		E44FC98E1E5B522700D5637B /* UTLiteCameraDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E44FC98D1E5B522700D5637B /* UTLiteCameraDemoTests.m */; };
+		E44FC9991E5B522700D5637B /* UTLiteCameraDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E44FC9981E5B522700D5637B /* UTLiteCameraDemoUITests.m */; };
+		E44FC9A81E5B524400D5637B /* UTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E44FC9A71E5B524400D5637B /* UTViewController.m */; };
+		E4515AAA1E5C400D0090CD70 /* UTLiteCameraRecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E4515AA91E5C400D0090CD70 /* UTLiteCameraRecoder.m */; };
+		E4515AAD1E5C41630090CD70 /* UTLiteCameraSession.m in Sources */ = {isa = PBXBuildFile; fileRef = E4515AAC1E5C41630090CD70 /* UTLiteCameraSession.m */; };
+		E4515AB01E5C45C30090CD70 /* UTLiteCameraProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4515AAF1E5C45C30090CD70 /* UTLiteCameraProgressView.m */; };
+		E4515AB31E5C471F0090CD70 /* UTLiteCameraPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4515AB21E5C471F0090CD70 /* UTLiteCameraPlayerViewController.m */; };
+		E4515AB61E5C47460090CD70 /* UTLiteCameraPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4515AB51E5C47460090CD70 /* UTLiteCameraPlayerView.m */; };
+		E4515AB91E5C4A870090CD70 /* UIImage+UTLiteCameraPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E4515AB81E5C4A870090CD70 /* UIImage+UTLiteCameraPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E44FC98A1E5B522700D5637B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E44FC9651E5B522700D5637B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E44FC96C1E5B522700D5637B;
+			remoteInfo = UTLiteCameraDemo;
+		};
+		E44FC9951E5B522700D5637B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E44FC9651E5B522700D5637B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E44FC96C1E5B522700D5637B;
+			remoteInfo = UTLiteCameraDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E40318261E5D894D00E52099 /* UTLiteCameraConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTLiteCameraConfiguration.h; sourceTree = "<group>"; };
+		E40318271E5D894D00E52099 /* UTLiteCameraConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTLiteCameraConfiguration.m; sourceTree = "<group>"; };
+		E40318281E5D894D00E52099 /* UTLiteCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTLiteCameraManager.h; sourceTree = "<group>"; };
+		E40318291E5D894D00E52099 /* UTLiteCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTLiteCameraManager.m; sourceTree = "<group>"; };
+		E42DE2B01E5BEA5200608602 /* Camera_Turn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera_Turn@2x.png"; sourceTree = "<group>"; };
+		E42DE2B11E5BEA5200608602 /* Delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Delete@2x.png"; sourceTree = "<group>"; };
+		E42DE2B21E5BEA5200608602 /* Play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play@2x.png"; sourceTree = "<group>"; };
+		E42DE2B91E5C0BAE00608602 /* UTLiteCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTLiteCameraViewController.h; sourceTree = "<group>"; };
+		E42DE2BA1E5C0BAE00608602 /* UTLiteCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTLiteCameraViewController.m; sourceTree = "<group>"; };
+		E4303A531E5ED77500A21D75 /* UTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTButton.h; sourceTree = "<group>"; };
+		E4303A541E5ED77500A21D75 /* UTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTButton.m; sourceTree = "<group>"; };
+		E44712A91E5D210800217F0F /* focus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "focus@2x.png"; sourceTree = "<group>"; };
+		E44FC96D1E5B522700D5637B /* UTLiteCameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTLiteCameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44FC9711E5B522700D5637B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E44FC9731E5B522700D5637B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E44FC9741E5B522700D5637B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E44FC97D1E5B522700D5637B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E44FC97F1E5B522700D5637B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E44FC9821E5B522700D5637B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E44FC9841E5B522700D5637B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E44FC9891E5B522700D5637B /* UTLiteCameraDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTLiteCameraDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44FC98D1E5B522700D5637B /* UTLiteCameraDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTLiteCameraDemoTests.m; sourceTree = "<group>"; };
+		E44FC98F1E5B522700D5637B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E44FC9941E5B522700D5637B /* UTLiteCameraDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTLiteCameraDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44FC9981E5B522700D5637B /* UTLiteCameraDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTLiteCameraDemoUITests.m; sourceTree = "<group>"; };
+		E44FC99A1E5B522700D5637B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E44FC9A61E5B524400D5637B /* UTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTViewController.h; sourceTree = "<group>"; };
+		E44FC9A71E5B524400D5637B /* UTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTViewController.m; sourceTree = "<group>"; };
+		E4515AA81E5C400D0090CD70 /* UTLiteCameraRecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTLiteCameraRecoder.h; sourceTree = "<group>"; };
+		E4515AA91E5C400D0090CD70 /* UTLiteCameraRecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTLiteCameraRecoder.m; sourceTree = "<group>"; };
+		E4515AAB1E5C41630090CD70 /* UTLiteCameraSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTLiteCameraSession.h; sourceTree = "<group>"; };
+		E4515AAC1E5C41630090CD70 /* UTLiteCameraSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTLiteCameraSession.m; sourceTree = "<group>"; };
+		E4515AAE1E5C45C30090CD70 /* UTLiteCameraProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTLiteCameraProgressView.h; sourceTree = "<group>"; };
+		E4515AAF1E5C45C30090CD70 /* UTLiteCameraProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTLiteCameraProgressView.m; sourceTree = "<group>"; };
+		E4515AB11E5C471F0090CD70 /* UTLiteCameraPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTLiteCameraPlayerViewController.h; sourceTree = "<group>"; };
+		E4515AB21E5C471F0090CD70 /* UTLiteCameraPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTLiteCameraPlayerViewController.m; sourceTree = "<group>"; };
+		E4515AB41E5C47460090CD70 /* UTLiteCameraPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTLiteCameraPlayerView.h; sourceTree = "<group>"; };
+		E4515AB51E5C47460090CD70 /* UTLiteCameraPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTLiteCameraPlayerView.m; sourceTree = "<group>"; };
+		E4515AB71E5C4A870090CD70 /* UIImage+UTLiteCameraPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UTLiteCameraPlayer.h"; sourceTree = "<group>"; };
+		E4515AB81E5C4A870090CD70 /* UIImage+UTLiteCameraPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UTLiteCameraPlayer.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E44FC96A1E5B522700D5637B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44FC9861E5B522700D5637B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44FC9911E5B522700D5637B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E44FC9641E5B522700D5637B = {
+			isa = PBXGroup;
+			children = (
+				E44FC96F1E5B522700D5637B /* UTLiteCameraDemo */,
+				E44FC98C1E5B522700D5637B /* UTLiteCameraDemoTests */,
+				E44FC9971E5B522700D5637B /* UTLiteCameraDemoUITests */,
+				E44FC96E1E5B522700D5637B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E44FC96E1E5B522700D5637B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E44FC96D1E5B522700D5637B /* UTLiteCameraDemo.app */,
+				E44FC9891E5B522700D5637B /* UTLiteCameraDemoTests.xctest */,
+				E44FC9941E5B522700D5637B /* UTLiteCameraDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E44FC96F1E5B522700D5637B /* UTLiteCameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E4515AA21E5C3F170090CD70 /* UTLiteCamera */,
+				E44FC9731E5B522700D5637B /* AppDelegate.h */,
+				E44FC9741E5B522700D5637B /* AppDelegate.m */,
+				E44FC97C1E5B522700D5637B /* Main.storyboard */,
+				E44FC97F1E5B522700D5637B /* Assets.xcassets */,
+				E44FC9811E5B522700D5637B /* LaunchScreen.storyboard */,
+				E44FC9841E5B522700D5637B /* Info.plist */,
+				E44FC9701E5B522700D5637B /* Supporting Files */,
+				E44FC9A61E5B524400D5637B /* UTViewController.h */,
+				E44FC9A71E5B524400D5637B /* UTViewController.m */,
+				E4303A531E5ED77500A21D75 /* UTButton.h */,
+				E4303A541E5ED77500A21D75 /* UTButton.m */,
+			);
+			path = UTLiteCameraDemo;
+			sourceTree = "<group>";
+		};
+		E44FC9701E5B522700D5637B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E44FC9711E5B522700D5637B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E44FC98C1E5B522700D5637B /* UTLiteCameraDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E44FC98D1E5B522700D5637B /* UTLiteCameraDemoTests.m */,
+				E44FC98F1E5B522700D5637B /* Info.plist */,
+			);
+			path = UTLiteCameraDemoTests;
+			sourceTree = "<group>";
+		};
+		E44FC9971E5B522700D5637B /* UTLiteCameraDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E44FC9981E5B522700D5637B /* UTLiteCameraDemoUITests.m */,
+				E44FC99A1E5B522700D5637B /* Info.plist */,
+			);
+			path = UTLiteCameraDemoUITests;
+			sourceTree = "<group>";
+		};
+		E4515AA21E5C3F170090CD70 /* UTLiteCamera */ = {
+			isa = PBXGroup;
+			children = (
+				E40318261E5D894D00E52099 /* UTLiteCameraConfiguration.h */,
+				E40318271E5D894D00E52099 /* UTLiteCameraConfiguration.m */,
+				E40318281E5D894D00E52099 /* UTLiteCameraManager.h */,
+				E40318291E5D894D00E52099 /* UTLiteCameraManager.m */,
+				E42DE2B91E5C0BAE00608602 /* UTLiteCameraViewController.h */,
+				E42DE2BA1E5C0BAE00608602 /* UTLiteCameraViewController.m */,
+				E44712A91E5D210800217F0F /* focus@2x.png */,
+				E42DE2B01E5BEA5200608602 /* Camera_Turn@2x.png */,
+				E42DE2B11E5BEA5200608602 /* Delete@2x.png */,
+				E42DE2B21E5BEA5200608602 /* Play@2x.png */,
+				E4515AA31E5C3F170090CD70 /* UTLiteCameraPlayer */,
+				E4515AA41E5C3F170090CD70 /* UTLiteCameraWriter */,
+			);
+			path = UTLiteCamera;
+			sourceTree = "<group>";
+		};
+		E4515AA31E5C3F170090CD70 /* UTLiteCameraPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E4515AB11E5C471F0090CD70 /* UTLiteCameraPlayerViewController.h */,
+				E4515AB21E5C471F0090CD70 /* UTLiteCameraPlayerViewController.m */,
+				E4515AB41E5C47460090CD70 /* UTLiteCameraPlayerView.h */,
+				E4515AB51E5C47460090CD70 /* UTLiteCameraPlayerView.m */,
+				E4515AB71E5C4A870090CD70 /* UIImage+UTLiteCameraPlayer.h */,
+				E4515AB81E5C4A870090CD70 /* UIImage+UTLiteCameraPlayer.m */,
+			);
+			path = UTLiteCameraPlayer;
+			sourceTree = "<group>";
+		};
+		E4515AA41E5C3F170090CD70 /* UTLiteCameraWriter */ = {
+			isa = PBXGroup;
+			children = (
+				E4515AA81E5C400D0090CD70 /* UTLiteCameraRecoder.h */,
+				E4515AA91E5C400D0090CD70 /* UTLiteCameraRecoder.m */,
+				E4515AAB1E5C41630090CD70 /* UTLiteCameraSession.h */,
+				E4515AAC1E5C41630090CD70 /* UTLiteCameraSession.m */,
+				E4515AAE1E5C45C30090CD70 /* UTLiteCameraProgressView.h */,
+				E4515AAF1E5C45C30090CD70 /* UTLiteCameraProgressView.m */,
+			);
+			path = UTLiteCameraWriter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E44FC96C1E5B522700D5637B /* UTLiteCameraDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44FC99D1E5B522700D5637B /* Build configuration list for PBXNativeTarget "UTLiteCameraDemo" */;
+			buildPhases = (
+				E44FC9691E5B522700D5637B /* Sources */,
+				E44FC96A1E5B522700D5637B /* Frameworks */,
+				E44FC96B1E5B522700D5637B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UTLiteCameraDemo;
+			productName = UTLiteCameraDemo;
+			productReference = E44FC96D1E5B522700D5637B /* UTLiteCameraDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E44FC9881E5B522700D5637B /* UTLiteCameraDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44FC9A01E5B522700D5637B /* Build configuration list for PBXNativeTarget "UTLiteCameraDemoTests" */;
+			buildPhases = (
+				E44FC9851E5B522700D5637B /* Sources */,
+				E44FC9861E5B522700D5637B /* Frameworks */,
+				E44FC9871E5B522700D5637B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E44FC98B1E5B522700D5637B /* PBXTargetDependency */,
+			);
+			name = UTLiteCameraDemoTests;
+			productName = UTLiteCameraDemoTests;
+			productReference = E44FC9891E5B522700D5637B /* UTLiteCameraDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E44FC9931E5B522700D5637B /* UTLiteCameraDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44FC9A31E5B522700D5637B /* Build configuration list for PBXNativeTarget "UTLiteCameraDemoUITests" */;
+			buildPhases = (
+				E44FC9901E5B522700D5637B /* Sources */,
+				E44FC9911E5B522700D5637B /* Frameworks */,
+				E44FC9921E5B522700D5637B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E44FC9961E5B522700D5637B /* PBXTargetDependency */,
+			);
+			name = UTLiteCameraDemoUITests;
+			productName = UTLiteCameraDemoUITests;
+			productReference = E44FC9941E5B522700D5637B /* UTLiteCameraDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E44FC9651E5B522700D5637B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = WQ;
+				TargetAttributes = {
+					E44FC96C1E5B522700D5637B = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5Y5SPP5LY6;
+						ProvisioningStyle = Automatic;
+					};
+					E44FC9881E5B522700D5637B = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5G4X89976B;
+						TestTargetID = E44FC96C1E5B522700D5637B;
+					};
+					E44FC9931E5B522700D5637B = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5G4X89976B;
+						TestTargetID = E44FC96C1E5B522700D5637B;
+					};
+				};
+			};
+			buildConfigurationList = E44FC9681E5B522700D5637B /* Build configuration list for PBXProject "UTLiteCameraDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E44FC9641E5B522700D5637B;
+			productRefGroup = E44FC96E1E5B522700D5637B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E44FC96C1E5B522700D5637B /* UTLiteCameraDemo */,
+				E44FC9881E5B522700D5637B /* UTLiteCameraDemoTests */,
+				E44FC9931E5B522700D5637B /* UTLiteCameraDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E44FC96B1E5B522700D5637B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44FC9831E5B522700D5637B /* LaunchScreen.storyboard in Resources */,
+				E42DE2B31E5BEA5200608602 /* Camera_Turn@2x.png in Resources */,
+				E44FC9801E5B522700D5637B /* Assets.xcassets in Resources */,
+				E44FC97E1E5B522700D5637B /* Main.storyboard in Resources */,
+				E42DE2B41E5BEA5200608602 /* Delete@2x.png in Resources */,
+				E44712AA1E5D210800217F0F /* focus@2x.png in Resources */,
+				E42DE2B51E5BEA5200608602 /* Play@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44FC9871E5B522700D5637B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44FC9921E5B522700D5637B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E44FC9691E5B522700D5637B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4515AAD1E5C41630090CD70 /* UTLiteCameraSession.m in Sources */,
+				E44FC9751E5B522700D5637B /* AppDelegate.m in Sources */,
+				E44FC9A81E5B524400D5637B /* UTViewController.m in Sources */,
+				E42DE2BB1E5C0BAE00608602 /* UTLiteCameraViewController.m in Sources */,
+				E403182A1E5D894D00E52099 /* UTLiteCameraConfiguration.m in Sources */,
+				E4515AAA1E5C400D0090CD70 /* UTLiteCameraRecoder.m in Sources */,
+				E4515AB31E5C471F0090CD70 /* UTLiteCameraPlayerViewController.m in Sources */,
+				E44FC9721E5B522700D5637B /* main.m in Sources */,
+				E4303A551E5ED77500A21D75 /* UTButton.m in Sources */,
+				E4515AB01E5C45C30090CD70 /* UTLiteCameraProgressView.m in Sources */,
+				E4515AB91E5C4A870090CD70 /* UIImage+UTLiteCameraPlayer.m in Sources */,
+				E4515AB61E5C47460090CD70 /* UTLiteCameraPlayerView.m in Sources */,
+				E403182B1E5D894D00E52099 /* UTLiteCameraManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44FC9851E5B522700D5637B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44FC98E1E5B522700D5637B /* UTLiteCameraDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44FC9901E5B522700D5637B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44FC9991E5B522700D5637B /* UTLiteCameraDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E44FC98B1E5B522700D5637B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E44FC96C1E5B522700D5637B /* UTLiteCameraDemo */;
+			targetProxy = E44FC98A1E5B522700D5637B /* PBXContainerItemProxy */;
+		};
+		E44FC9961E5B522700D5637B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E44FC96C1E5B522700D5637B /* UTLiteCameraDemo */;
+			targetProxy = E44FC9951E5B522700D5637B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E44FC97C1E5B522700D5637B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E44FC97D1E5B522700D5637B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E44FC9811E5B522700D5637B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E44FC9821E5B522700D5637B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E44FC99B1E5B522700D5637B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E44FC99C1E5B522700D5637B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E44FC99E1E5B522700D5637B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5Y5SPP5LY6;
+				INFOPLIST_FILE = UTLiteCameraDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.utsoft.UTLiteCameraDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E44FC99F1E5B522700D5637B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5Y5SPP5LY6;
+				INFOPLIST_FILE = UTLiteCameraDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.utsoft.UTLiteCameraDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E44FC9A11E5B522700D5637B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UTLiteCameraDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.utsoft.UTLiteCameraDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UTLiteCameraDemo.app/UTLiteCameraDemo";
+			};
+			name = Debug;
+		};
+		E44FC9A21E5B522700D5637B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UTLiteCameraDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.utsoft.UTLiteCameraDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UTLiteCameraDemo.app/UTLiteCameraDemo";
+			};
+			name = Release;
+		};
+		E44FC9A41E5B522700D5637B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UTLiteCameraDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.utsoft.UTLiteCameraDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UTLiteCameraDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E44FC9A51E5B522700D5637B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UTLiteCameraDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.utsoft.UTLiteCameraDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UTLiteCameraDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E44FC9681E5B522700D5637B /* Build configuration list for PBXProject "UTLiteCameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44FC99B1E5B522700D5637B /* Debug */,
+				E44FC99C1E5B522700D5637B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44FC99D1E5B522700D5637B /* Build configuration list for PBXNativeTarget "UTLiteCameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44FC99E1E5B522700D5637B /* Debug */,
+				E44FC99F1E5B522700D5637B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44FC9A01E5B522700D5637B /* Build configuration list for PBXNativeTarget "UTLiteCameraDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44FC9A11E5B522700D5637B /* Debug */,
+				E44FC9A21E5B522700D5637B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44FC9A31E5B522700D5637B /* Build configuration list for PBXNativeTarget "UTLiteCameraDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44FC9A41E5B522700D5637B /* Debug */,
+				E44FC9A51E5B522700D5637B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E44FC9651E5B522700D5637B /* Project object */;
+}
